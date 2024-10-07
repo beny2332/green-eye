@@ -1,4 +1,9 @@
 const router = require("express").Router()
 
+router.post("/register", () => {})
 
-module.exports =  router 
+router.get("/profile", () => {})
+
+router.patch("/settings", () => {})
+
+module.exports = router
