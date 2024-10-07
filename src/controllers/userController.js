@@ -1,7 +1,7 @@
 const register = async (req, res) => {
     try {
         
-    } catch (error) {
+    } catch (err) {
         
     }
 }
@@ -9,7 +9,7 @@ const register = async (req, res) => {
 const getProfile = async (req, res) => {
     try {
         
-    } catch (error) {
+    } catch (err) {
         
     }
 }
@@ -17,7 +17,7 @@ const getProfile = async (req, res) => {
 const setSettings = async (req, res) => {
     try {
         
-    } catch (error) {
+    } catch (err) {
         
     }
 }
