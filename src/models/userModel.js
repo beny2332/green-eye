@@ -15,6 +15,16 @@ const userSchema = new mongoose.Schema({
     enum: ["commander", "soldier"],
     required: [true, "please provide a role"],
   },
+  area: {
+    type: String,
+    enum: ["center", "north", "south", "east", "west"],
+    required: [true, "please provide an area"],
+  },
+  units: {
+    type: [Number],
+    required: [true, "please specify at least one unit"],
+  },
 })
 
 const UserModel = mongoose.model("user", userSchema)
+module.exports = UserModel
